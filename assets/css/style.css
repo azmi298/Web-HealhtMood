@@ -40,6 +40,8 @@ button, input, select, textarea { font: inherit; }
     z-index: 50;
 }
 
+
+
 .brand {
     display: flex;
     align-items: center;
@@ -121,6 +123,84 @@ button, input, select, textarea { font: inherit; }
     background: transparent;
     cursor: pointer;
     font-weight: 900;
+}
+
+.bell {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.bell span {
+    display: none !important;
+}
+
+.bell svg {
+    display: block;
+    width: 22px;
+    height: 22px;
+    stroke: white;
+    fill: none;
+}
+
+.logout-trigger {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logout-trigger span {
+    display: none !important;
+}
+
+.logout-trigger svg {
+    width: 22px;
+    height: 22px;
+    fill: white;
+}
+
+.bell,
+.logout-trigger {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.bell span,
+.logout-trigger span {
+    display: none !important;
+}
+
+.bell svg,
+.logout-trigger svg {
+    width: 28px;
+    height: 28px;
+    fill: white;
+}
+
+.bell svg,
+.logout-trigger svg {
+    fill: white;
+    width: 22px;
+    height: 22px;
 }
 
 .bell {
@@ -794,6 +874,16 @@ body.page-game .search-icon-img {
     .mood-options { grid-template-columns: repeat(5, 1fr); gap: 6px; }
     .mood-options label { padding: 8px 4px; font-size: 10px; }
     .toolbar { flex-direction: column; }
+}
+
+.brand span {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 26px;
+    color: white;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 1;
 }
 
 /* Final interaction polish */
