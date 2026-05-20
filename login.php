@@ -44,15 +44,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <label>
             <input type="email" name="email" value="admin@healthmood.test" placeholder="Email" required>
         </label>
-<<<<<<< HEAD
         
         <label>
             <input type="password" name="password" placeholder="🔒  Password" required>
-=======
+
         <label class="password-field">
             <input id="loginPassword" type="password" name="password" placeholder="Password" required>
             <button class="eye-toggle" type="button" data-toggle-password="#loginPassword" aria-label="Lihat password"></button>
->>>>>>> d495e45ef926c60f1e30d117ab147b08ebd0977f
+
         </label>
         <p><a href="#">Forgot Password?</a></p>
         <button class="btn" type="submit">LOGIN</button>
